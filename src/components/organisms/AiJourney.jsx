@@ -1,10 +1,14 @@
+import { LeftSideIcon } from "../../assets/icons"
 import { CardText, CardTitle } from "../atoms"
 import CardWapper from "../molecules/CardWapper"
 
 const AiJourney = ({className=""}) => {
   return (
     <CardWapper className={`px-8 py-7 ${className}`}>
-        <div className="flex flex-col justify-end h-full">
+        <div className="flex flex-col justify-end h-full relative">
+          <div className="absolute top-[-32px] right-[-32px]">
+              <LeftSideIcon/>
+          </div>
           <CardTitle title="Ai journey" className="mb-1" />
           <CardText text="Boost your prompt precision with keywords."/>
         </div>

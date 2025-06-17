@@ -18,8 +18,8 @@ export default function App() {
         <ThemeToggle />
         <CreatedPrompts/>
         <TopUsers/>
-        <BranchingPaths className="row-span-2"/>
-        <AiJourney className="row-span-2"/>
+        <BranchingPaths className="row-span-2 right-inverted-radius"/>
+        <AiJourney className="row-span-2 left-inverted-radius"/>
         <PromptService className="row-span-2"/>
         <Generate/>
       </div>
