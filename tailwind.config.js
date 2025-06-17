@@ -19,11 +19,11 @@ export default {
         },
         pillBg: {
           light: '#F0ECFF80',
-          dark: '#110A2B66', 
+          dark: '#110A2B66',
         },
         borderBtn: {
-        light: '#0000001A',
-        dark: '#FFFFFF26',
+          light: '#0000001A',
+          dark: '#FFFFFF26',
         },
       },
       backgroundImage: {
@@ -43,10 +43,11 @@ export default {
         linear-gradient(0deg, rgba(255,255,255,0.05), rgba(255,255,255,0.05)),
         radial-gradient(66.67% 103.95% at 50% -42.76%, #BBA5F4 0%, #5F33D6 100%)
       `,
-      'btn-radial-light': `
+        'btn-radial-light': `
         linear-gradient(0deg, rgba(0,0,0,0.03), rgba(0,0,0,0.03)),
         radial-gradient(66.67% 103.95% at 50% -42.76%, #C7B6FF 0%, #886FFF 100%)
       `,
+        'template-radial-dark': 'radial-gradient(53.33% 74.69% at 50% 107.05%, #BBA5F4 0%, #653AD8 100%)',
       },
       boxShadow: {
         'custom-pill': `
@@ -57,11 +58,14 @@ export default {
         0px 1px 3px 0px rgba(1, 5, 30, 0.5) inset,
         0px 1px 1px 0px rgba(255, 255, 255, 0.07)
       `,
-      'btn-glow-light': `
+        'btn-glow-light': `
         0px 4px 6px -2px rgba(0, 0, 0, 0.05),
         0px 10px 15px -3px rgba(0, 0, 0, 0.1)
       `,
       },
+      gridTemplateRows: {
+      'custom-layout': 'minmax(157px, auto) minmax(211px, auto) minmax(220px, auto) minmax(164px, auto)',
+    },
     },
   },
   plugins: [],

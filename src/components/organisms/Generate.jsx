@@ -1,10 +1,11 @@
 import { ImageSpark } from "../../assets/icons"
 import CardWapper from "../molecules/CardWapper"
 
-const Generate = () => {
+const Generate = ({className=""}) => {
   return (
-    <CardWapper className="py-[46px] px-8 flex justify-center">
-      <div className="rounded-full gap-1 p-2 dark:bg-pillBg-dark bg-pillBg-light shadow-custom-pill transition duration-300">
+    <CardWapper className={`py-[46px] px-8 ${className}`}>
+      <div className="flex items-center justify-center h-full">
+        <div className="rounded-full gap-1 p-2 dark:bg-pillBg-dark bg-pillBg-light shadow-custom-pill transition duration-300">
         <button
           className="relative min-w-[182px] p-[14px] flex items-center justify-center gap-[6px] rounded-full 
     border dark:border-borderBtn-dark border-borderBtn-light 
@@ -25,6 +26,7 @@ const Generate = () => {
             Generate
           </span>
         </button>
+      </div>
       </div>
     </CardWapper>
   )

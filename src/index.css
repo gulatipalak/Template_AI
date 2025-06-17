@@ -19,3 +19,16 @@ body {
 .bg-dots {
   background-image: url('../assets/img/6x6-dot-white.png');
 }
+
+.text-stroke-faint {
+   @apply dark:text-[#FAF9FF] text-[#5F41B2] transition duration-300;
+  text-shadow: none;
+}
+
+.dark .text-stroke-faint {
+  text-shadow: 
+    -1px -1px 0 #552ACB80,
+     1px -1px 0 #552ACB80,
+    -1px  1px 0 #552ACB80,
+     1px  1px 0 #552ACB80;
+}
