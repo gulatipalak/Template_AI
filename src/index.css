@@ -5,5 +5,17 @@
 @tailwind utilities;
 
 body {
-  @apply font-jakarta;
+  @apply font-jakarta dark:bg-body bg-light-body transition duration-300;
+}
+
+.bg-general-noise {
+  background-image: url('../assets/img/general-noise.png');
+}
+
+.bg-download {
+  background-image: url('../assets/img/download.png');
+}
+
+.bg-dots {
+  background-image: url('../assets/img/6x6-dot-white.png');
 }
