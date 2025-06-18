@@ -56,6 +56,7 @@ export default {
       `,
         'template-radial-dark': 'radial-gradient(53.33% 74.69% at 50% 107.05%, #BBA5F4 0%, #653AD8 100%)',
         'template-radial-light': 'radial-gradient(53.33% 74.69% at 50% 107.05%, #E4DCFF 0%, #B9A7FC 100%)',
+        'toggle-btn-radial': 'radial-gradient(183.81% 220.09% at 18.23% -40.51%, #FFDAA3 0%, #E27F5A 46.78%, #691616 100%)',
       },
       boxShadow: {
         'custom-pill': `
@@ -70,6 +71,7 @@ export default {
         0px 4px 6px -2px rgba(0, 0, 0, 0.05),
         0px 10px 15px -3px rgba(0, 0, 0, 0.1)
       `,
+        'toggle-glow': '0px 0px 26px -5px #00000033',
       },
       gridTemplateRows: {
         'custom-layout': 'minmax(157px, auto) minmax(211px, auto) minmax(220px, auto) minmax(164px, auto)',
