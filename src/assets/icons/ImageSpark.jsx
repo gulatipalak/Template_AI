@@ -1,8 +1,5 @@
-import React from 'react'
-
 const ImageSpark = () => {
   return (
-    <div>
       <svg
   width={27}
   height={27}
@@ -23,8 +20,6 @@ const ImageSpark = () => {
     strokeOpacity="0.1"
   />
 </svg>
-
-    </div>
   )
 }
 

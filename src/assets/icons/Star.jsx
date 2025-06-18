@@ -1,7 +1,6 @@
 const Star = () => {
   return (
-    <div>
-      <svg className="block"
+      <svg
   width={50}
   height={43}
   viewBox="0 0 50 43"
@@ -85,8 +84,6 @@ const Star = () => {
     </filter>
   </defs>
 </svg>
-
-    </div>
   )
 }
 
