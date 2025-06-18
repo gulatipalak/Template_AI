@@ -23,6 +23,10 @@ body {
   background-image: url('../assets/img/union.png');
 }
 
+.bg-code {
+  background-image: url('../assets/img/code.png');
+}
+
 .text-stroke-faint {
    @apply dark:text-[#FAF9FF] text-[#FFFFFF] transition duration-300;
   text-shadow: 
@@ -37,12 +41,11 @@ body {
 }
 
 .center-inner-curve {
-      --r: 24px;
-    --s: 253px;
-    --a: 20deg;
+    --r: 20px;
+    --s: 161px;
+    --a: 9deg;
     --p: 50%;
-  
-    border-radius: var(--r);
+    border-radius: 24px;
     --_m: calc(100% - var(--r)),#000 calc(100% - 1px),#0000;
     --_d: (var(--s) + var(--r))*cos(var(--a));
     mask: radial-gradient(var(--r) at calc(var(--p) + var(--_d)) var(--_m)),
@@ -53,12 +56,12 @@ body {
 }
 
 .right-inverted-radius {
-      --r: 24px; /* the radius */
-  --s: 201px; /* size of inner curve */
-  --x: 8px; /* horizontal offset (no percentage) */
-  --y: 12px; /* vertical offset (no percentage) */
+      --r: 8px; /* the radius */
+  --s: 134px; /* size of inner curve */
+  --x: 0px; /* horizontal offset (no percentage) */
+  --y: 0px; /* vertical offset (no percentage) */
   
-  border-radius: var(--r);
+  border-radius: 24px;
   --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%);
   --_g:conic-gradient(at calc(100% - var(--r)) var(--r),#0000 25%,#000 0);
   --_d:(var(--s) + var(--r));
@@ -73,12 +76,12 @@ body {
 }
 
 .left-inverted-radius {
-      --r: 24px; /* the radius */
-  --s: 201px; /* size of inner curve */
-  --x: 8px; /* horizontal offset (no percentage) */
-  --y: 12px; /* vertical offset (no percentage) */
+      --r: 8px; /* the radius */
+  --s: 134px; /* size of inner curve */
+  --x: 0px; /* horizontal offset (no percentage) */
+  --y: 0px; /* vertical offset (no percentage) */
   
-  border-radius: var(--r);
+  border-radius: 24px;
   --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%);
   --_g:conic-gradient(at var(--r) var(--r),#000 75%,#0000 0);
   --_d:(var(--s) + var(--r));
