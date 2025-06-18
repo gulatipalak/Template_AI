@@ -67,6 +67,9 @@ export default {
       gridTemplateRows: {
       'custom-layout': 'minmax(157px, auto) minmax(211px, auto) minmax(220px, auto) minmax(164px, auto)',
     },
+      gridTemplateColumns: {
+      'custom-layout': 'minmax(242px, 242px) repeat(2, 1fr) minmax(242px, 242px)',
+    },
     },
   },
   plugins: [],
