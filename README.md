@@ -15,6 +15,9 @@ This project is submitted as part of a hiring assignment. Do not copy or reuse w
 - TailwindCSS
 - Light/Dark Mode (Custom toggle)
 
+## Explanation video link
+https://www.awesomescreenshot.com/video/41111247?key=6accf341ab5d89f17a34113fa5284b9e 
+
 ## 🚀 Getting Started
 
 To run this project locally:
@@ -24,3 +27,5 @@ git clone https://github.com/gulatipalak/Template_AI.git
 cd Template_AI
 npm install
 npm run dev
+
+
