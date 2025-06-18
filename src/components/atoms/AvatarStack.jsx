@@ -17,7 +17,9 @@ const AvatarStack = ({ items }) => {
             />
             </>
           ) : (
-            item.icon || null
+            <div className="absolute top-[23%]">
+              {item.icon || null}
+            </div>
           )}
         </div>
       ))}

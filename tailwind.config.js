@@ -6,6 +6,13 @@ export default {
   ],
   darkMode: "class",
   theme: {
+    screens: {
+      sm: "576px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
+      "2xl": "1400px",
+    },
     extend: {
       fontFamily: {
         jakarta: ['Plus Jakarta Sans', 'sans-serif']
@@ -65,11 +72,11 @@ export default {
       `,
       },
       gridTemplateRows: {
-      'custom-layout': 'minmax(157px, auto) minmax(211px, auto) minmax(220px, auto) minmax(164px, auto)',
-    },
+        'custom-layout': 'minmax(157px, auto) minmax(211px, auto) minmax(220px, auto) minmax(164px, auto)',
+      },
       gridTemplateColumns: {
-      'custom-layout': 'minmax(242px, 242px) repeat(2, 1fr) minmax(242px, 242px)',
-    },
+        'custom-layout': 'minmax(242px, 242px) repeat(2, 1fr) minmax(242px, 242px)',
+      },
     },
   },
   plugins: [],

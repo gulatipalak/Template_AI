@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="min-h-screen p-8">
       
-      <div className="grid grid-cols-custom-layout grid-rows-custom-layout gap-7">
+      <div className="grid xl:grid-cols-custom-layout xl:grid-rows-custom-layout gap-7">
         <CreateYourTemplate className="row-span-2"/>
         <TemplateAi className="col-span-2 row-span-2"/>
         <ThemeToggle />
