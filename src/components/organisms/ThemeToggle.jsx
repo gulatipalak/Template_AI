@@ -2,11 +2,11 @@ import { ToggleIcon } from "../../assets/icons";
 import { useTheme } from "../../context/ThemeContext";
 import CardWapper from "../molecules/CardWapper";
 
-const ThemeToggle = () => {
+const ThemeToggle = ({className=''}) => {
   const { darkMode, toggleTheme } = useTheme();
 
   return (
-    <CardWapper className="py-[42.5px] px-[45px]">
+    <CardWapper className={`py-[42.5px] px-[45px] ${className}`}>
         <div className="flex items-center justify-center h-full">
             <button
         onClick={toggleTheme}

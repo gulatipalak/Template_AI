@@ -22,7 +22,7 @@ const avatars = [
 const TopUsers = ({className=""}) => {
   return (
     <CardWapper className={`pt-8 px-8 pb-[33px] ${className}`}>
-          <div className="gap-5 flex flex-col items-center justify-end h-full">
+          <div className="gap-5 flex flex-col items-center justify-center h-full">
             <div className="space-y-3">
               <span className="text-transparent dark:bg-orange-pink bg-light-orange-pink bg-clip-text text-[62px] font-semibold leading-[56px] tracking-[-0.02em] transition duration-300">20</span>
               <h2 className="dark:text-[#B2A1FD] text-[#5942CA] text-lg transition duration-300">Top Users</h2>

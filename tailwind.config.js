@@ -78,10 +78,10 @@ radial-gradient(66.67% 103.95% at 50% -42.76%, #BBA5F4 0%, #5F33D6 100%)
         'toggle-glow': '0px 0px 26px -5px #00000033',
       },
       gridTemplateRows: {
-        'custom-layout': 'minmax(157px, auto) minmax(211px, auto) minmax(220px, auto) minmax(164px, auto)',
+        'custom-layout': 'minmax(157px, 1fr) minmax(211px, 1fr) minmax(220px, 1fr) minmax(164px, 1fr)',
       },
       gridTemplateColumns: {
-        'custom-layout': 'minmax(242px, 242px) repeat(2, 1fr) minmax(242px, 242px)',
+        'custom-layout': 'minmax(242px, 1fr) minmax(264px, 1fr) minmax(264px, 1fr) minmax(242px, 1fr)',
       },
       backgroundPosition: {
         'right-center': 'right center',
