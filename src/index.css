@@ -19,6 +19,9 @@ body {
 .bg-dots {
   background-image: url('../assets/img/6x6-dot-white.png');
 }
+.bg-union {
+  background-image: url('../assets/img/union.png');
+}
 
 .text-stroke-faint {
    @apply dark:text-[#FAF9FF] text-[#FFFFFF] transition duration-300;

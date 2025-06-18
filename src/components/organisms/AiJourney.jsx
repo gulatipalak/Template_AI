@@ -1,5 +1,5 @@
-import { LeftSideIcon } from "../../assets/icons"
-import { CardText, CardTitle } from "../atoms"
+import { AiIcon, LeftSideIcon } from "../../assets/icons"
+import { CardText, CardTitle, IconBadge } from "../atoms"
 import CardWapper from "../molecules/CardWapper"
 
 const AiJourney = ({className=""}) => {
@@ -9,8 +9,15 @@ const AiJourney = ({className=""}) => {
           <div className="absolute top-[-32px] right-[-32px]">
               <LeftSideIcon/>
           </div>
-          <CardTitle title="Ai journey" className="mb-1" />
-          <CardText text="Boost your prompt precision with keywords."/>
+          <div className="pt-[84px] relative">
+            <IconBadge
+  icon={<AiIcon/>}
+  circleBg="bg-icon-blue-radial"
+  borderColor="#FFFFFF26"
+/>
+            <CardTitle title="Ai journey" className="mb-1" />
+            <CardText text="Boost your prompt precision with keywords."/>
+          </div>
         </div>
     </CardWapper>
   )

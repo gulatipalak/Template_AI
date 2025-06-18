@@ -57,6 +57,10 @@ export default {
         'template-radial-dark': 'radial-gradient(53.33% 74.69% at 50% 107.05%, #BBA5F4 0%, #653AD8 100%)',
         'template-radial-light': 'radial-gradient(53.33% 74.69% at 50% 107.05%, #E4DCFF 0%, #B9A7FC 100%)',
         'toggle-btn-radial': 'radial-gradient(183.81% 220.09% at 18.23% -40.51%, #FFDAA3 0%, #E27F5A 46.78%, #691616 100%)',
+        'icon-orange-radial': 'radial-gradient(226.92% 226.92% at 115.38% -50%, #FFDEAD 0%, #E27F5A 46.78%, #691616 100%)',
+        'icon-blue-radial': `linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+radial-gradient(66.67% 103.95% at 50% -42.76%, #BBA5F4 0%, #5F33D6 100%)
+`,
       },
       boxShadow: {
         'custom-pill': `
@@ -78,6 +82,9 @@ export default {
       },
       gridTemplateColumns: {
         'custom-layout': 'minmax(242px, 242px) repeat(2, 1fr) minmax(242px, 242px)',
+      },
+      backgroundPosition: {
+        'right-center': 'right center',
       },
     },
   },
